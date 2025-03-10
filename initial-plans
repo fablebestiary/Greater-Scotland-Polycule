@@ -1,0 +1,43 @@
+all information will be given by users who sign up. so they will have accounts
+each account should have the following information:
+
+* ID
+- unique display/[username] (essential)
+- actual [name] (probably won't usually be shown) (optional)
+- [email address] (essential)
+- [password] (essential)
+- [pfp] (optional)
+
+* Connections
+(none essential but if they have no connections their account won't be shown on the map)
+each [connection] will be logged/kept track of by [username]
+connections include:
+- [partners]
+- [dates]
+- [other]: whatever a user deems worthy of a connection
+(there will be space to type in how a user describes their connection)
+
+* Statistics (for fun data vis purposes)
+all statistical information will be optional
+- [gender] (multichoice, option to add identity)
+- [age] (Calculated from a birth date given by the user)
+- [sexual identity] (multichoice, option to add identity)
+- maybe therian and furry identities?: species (multichoice)
+- [location] city/town
+- [Country] (only essential stat) question just asks if they're in Scotland or not. If they don't live in Scotland they must have a 1st degree connection to be included, otherwise their data won't be saved or displayed. if they're outwith Scotland and have a connection, they will have a marker next to their node indicating what country they live in.
+
+* Permissions (what's visible to other users)
+there will be a default state that users can change at any time
+- [username] is always [visible]
+- [name] can be set to [visible] to:
+  - 1st degree separation or [connection]s
+  - 2nd degree separation or [metamore]s
+  - [everyone] 
+
+
+plan of action
+1st. first of all, we'll need to figure out how to store the data
+2nd. then build the website (somewhere between here and 1 the data vis stuff will need to be implimented. I don't know whether this should be database side, website side, or some third thing)
+3rd. make the website able to access/pull data from the database
+4th. make users able to create accounts
+5th. make users able to input data into the database 
